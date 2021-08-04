@@ -55,9 +55,9 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         
     if content.startswith("!봉벵빙봉"):
-        embed=discord.Embed(description="롤토체스 전적 바로가기", url = "https://lolchess.gg/profile/kr/%EB%B6%95%EB%B2%B5%EB%B9%99%EB%B4%89", color=0x00ff56)
-        embed=discord.Embed(footer="오피지지 전적 바로가기", url = "https://www.op.gg/summoner/userName=%EB%B6%95%EB%B2%B5%EB%B9%99%EB%B4%89", color=0x00ff56)
-        embed.set_author(name="<<봉벵빙봉>>")
+        embed=discord.Embed(description="<<봉벵빙봉>>")
+        embed.set_footer(text = "오피지지 전적 바로가기", url = "https://www.op.gg/summoner/userName=%EB%B6%95%EB%B2%B5%EB%B9%99%EB%B4%89")
+        embed.set_author(name="롤토체스 전적 바로가기", url = "https://lolchess.gg/profile/kr/%EB%B6%95%EB%B2%B5%EB%B9%99%EB%B4%89")
         await message.channel.send(embed=embed)
         
 access_token = os.environ["BOT_TOKKEN"]
