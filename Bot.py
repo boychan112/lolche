@@ -50,7 +50,7 @@ async def on_message(message):
         await message.channel.send(embed=discord.Embed(title="Time", timestamp=datetime.datetime.utcnow()))
 
     if content.startswith("!도움"):
-        embed=discord.Embed(description="!롤체지지\n!악동\n!빛도자\n괴생명체\n!시간\n!CBT\n!오피지지", color=0x00ff56)
+        embed=discord.Embed(description="!롤체지지\n!악동\n!빛도자\n!괴생명체\n!시간\n!CBT\n!오피지지", color=0x00ff56)
         embed.set_author(name="<<명령어>>")
         await message.channel.send(embed=embed)
         
