@@ -1,6 +1,6 @@
 import discord
-import asyncio
 import datetime
+import os
 
 client = discord.Client()
 
@@ -53,4 +53,6 @@ async def on_message(message):
         embed=discord.Embed(description="!롤체지지\n!악동\n!빛도자\n괴생명체\n시간", color=0x00ff56)
         embed.set_author(name="<<명령어>>")
         await message.channel.send(embed=embed)
-client.run('ODcyMzM0MDczNzMxODk5NDM0.YQoWag.j8mzPbTYK2zXg5ZSHyWXkMKm3vA')
+        
+access_token = os.environ["BOT_TOKKEN"]
+client.run(access_token)
