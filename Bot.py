@@ -113,6 +113,16 @@ async def on_message(message):
         embed=discord.Embed(description="롤체지지 Lv1 Mid yuqi 바로가기\nhttps://lolchess.gg/profile/kr/lv1midyuqi", color=0x00ff56)
         embed.set_author(name="<<Lv1 Mid yuqi>>")
         await message.channel.send(embed=embed)
+    
+    if content.startswith("!옵지 BurbleDust"):
+        embed=discord.Embed(description="오피지지 Burbledust 바로가기\nhttps://lolchess.gg/profile/kr/burbledust", color=0x00ff56)
+        embed.set_author(name="<<Burble Dust>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!롤체 BurbleDust"):
+        embed=discord.Embed(description="롤체지지 Burble Dust 바로가기\nhttps://lolchess.gg/profile/kr/burbledust", color=0x00ff56)
+        embed.set_author(name="<<Burble Dust>>")
+        await message.channel.send(embed=embed)
         
     
         
