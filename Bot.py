@@ -63,6 +63,56 @@ async def on_message(message):
         embed=discord.Embed(description="롤체지지 붕벵빙봉 바로가기\nhttps://lolchess.gg/profile/kr/%EB%B6%95%EB%B2%B5%EB%B9%99%EB%B4%89", color=0x00ff56)
         embed.set_author(name="<<붕벵빙봉>>")
         await message.channel.send(embed=embed)
+
+    if content.startswith("!옵지 plati0921"):
+        embed=discord.Embed(description="오피지지 plati0921 바로가기\nhttps://www.op.gg/summoner/userName=plati0921", color=0x00ff56)
+        embed.set_author(name="<<plati0921>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!롤체 plati0921"):
+        embed=discord.Embed(description="롤체지지 plati0921 바로가기\nhttps://lolchess.gg/profile/kr/plati0921", color=0x00ff56)
+        embed.set_author(name="<<plati0921>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!옵지 챔원삐뽀"):
+        embed=discord.Embed(description="오피지지 챔원삐뽀 바로가기\nhttps://www.op.gg/summoner/userName=챔원삐뽀", color=0x00ff56)
+        embed.set_author(name="<<챔원삐뽀>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!롤체 챔원삐뽀"):
+        embed=discord.Embed(description="롤체지지 챔원삐뽀 바로가기\nhttps://lolchess.gg/profile/kr/챔원삐뽀", color=0x00ff56)
+        embed.set_author(name="<<챔원삐뽀>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!옵지 박 죄 현"):
+        embed=discord.Embed(description="오피지지 박 죄 현 바로가기\nhttps://www.op.gg/summoner/userName=박죄현", color=0x00ff56)
+        embed.set_author(name="<<박 죄 현>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!롤체 박 죄 현"):
+        embed=discord.Embed(description="롤체지지 박 죄 현 바로가기\nhttps://lolchess.gg/profile/kr/박죄현", color=0x00ff56)
+        embed.set_author(name="<<박 죄 현>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!옵지 먼치킨빵댕이"):
+        embed=discord.Embed(description="오피지지 먼치킨빵댕이 바로가기\nhttps://www.op.gg/summoner/userName=먼치킨빵댕이", color=0x00ff56)
+        embed.set_author(name="<<먼치킨빵댕이>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!롤체 먼치킨빵댕이"):
+        embed=discord.Embed(description="롤체지지 먼치킨빵댕이 바로가기\nhttps://lolchess.gg/profile/kr/먼치킨빵댕이", color=0x00ff56)
+        embed.set_author(name="<<먼치킨빵댕이>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!옵지 Lv1 Mid yuqi"):
+        embed=discord.Embed(description="오피지지 Lv1 Mid yuqi 바로가기\nhttps://lolchess.gg/profile/kr/lv1midyuqi", color=0x00ff56)
+        embed.set_author(name="<<Lv1 Mid yuqi>>")
+        await message.channel.send(embed=embed)
+
+    if content.startswith("!롤체 Lv1 Mid yuqi"):
+        embed=discord.Embed(description="롤체지지 Lv1 Mid yuqi 바로가기\nhttps://lolchess.gg/profile/kr/lv1midyuqi", color=0x00ff56)
+        embed.set_author(name="<<Lv1 Mid yuqi>>")
+        await message.channel.send(embed=embed)
         
     
         
