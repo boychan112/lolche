@@ -84,12 +84,12 @@ async def on_message(message):
         embed.set_author(name="<<챔원삐뽀>>")
         await message.channel.send(embed=embed)
 
-    if content.startswith("!옵지 박 죄 현"):
+    if content.startswith("!옵지 박죄현"):
         embed=discord.Embed(description="오피지지 박 죄 현 바로가기\nhttps://www.op.gg/summoner/userName=박죄현", color=0x00ff56)
         embed.set_author(name="<<박 죄 현>>")
         await message.channel.send(embed=embed)
 
-    if content.startswith("!롤체 박 죄 현"):
+    if content.startswith("!롤체 박죄현"):
         embed=discord.Embed(description="롤체지지 박 죄 현 바로가기\nhttps://lolchess.gg/profile/kr/박죄현", color=0x00ff56)
         embed.set_author(name="<<박 죄 현>>")
         await message.channel.send(embed=embed)
@@ -104,12 +104,12 @@ async def on_message(message):
         embed.set_author(name="<<먼치킨빵댕이>>")
         await message.channel.send(embed=embed)
 
-    if content.startswith("!옵지 Lv1 Mid yuqi"):
+    if content.startswith("!옵지 Lv1Midyuqi"):
         embed=discord.Embed(description="오피지지 Lv1 Mid yuqi 바로가기\nhttps://lolchess.gg/profile/kr/lv1midyuqi", color=0x00ff56)
         embed.set_author(name="<<Lv1 Mid yuqi>>")
         await message.channel.send(embed=embed)
 
-    if content.startswith("!롤체 Lv1 Mid yuqi"):
+    if content.startswith("!롤체 Lv1Midyuqi"):
         embed=discord.Embed(description="롤체지지 Lv1 Mid yuqi 바로가기\nhttps://lolchess.gg/profile/kr/lv1midyuqi", color=0x00ff56)
         embed.set_author(name="<<Lv1 Mid yuqi>>")
         await message.channel.send(embed=embed)
