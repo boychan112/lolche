@@ -40,6 +40,11 @@ async def on_message(message):
         embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=32e2fa40e94011ebbfb6fbef3103b627", color=0x00ff56)
         embed.set_author(name="<<7빛의 인도자  2망령  2기원자  3싸움꾼  2재생술사>>",url="https://lolchess.gg/builder/set5.5?deck=32e2fa40e94011ebbfb6fbef3103b627")
         await message.channel.send(embed=embed)
+        
+    if content.startswith("!용족"):
+        embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=5ad9ced0f5ab11eb954c75ec6e5adda9", color=0x00ff56)
+        embed.set_author(name="<<5용족 3척후병 3감시자 2싸움꾼>>",url="https://lolchess.gg/builder/set5.5?deck=32e2fa40e94011ebbfb6fbef3103b627")
+        await message.channel.send(embed=embed)
     
     if content.startswith("!괴생명체"):
         embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=042b86f0e9ea11ebb5e589e115fb8433", color=0x00ff56)
