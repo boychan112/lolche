@@ -74,14 +74,14 @@ async def on_message(message):
         embed.set_author(name="<<붕벵빙봉>>")
         await message.channel.send(embed=embed)
 
-    if content.startswith("!옵지 plati0921"):
-        embed=discord.Embed(description="오피지지 plati0921 바로가기\nhttps://www.op.gg/summoner/userName=plati0921", color=0x00ff56)
-        embed.set_author(name="<<plati0921>>")
+    if content.startswith("!옵지 응애나아기롤리니"):
+        embed=discord.Embed(description="오피지지 응애나아기롤리니 바로가기\nhttps://www.op.gg/summoner/userName=응애나아기롤리니", color=0x00ff56)
+        embed.set_author(name="<<응애나아기롤리니>>")
         await message.channel.send(embed=embed)
 
-    if content.startswith("!롤체 plati0921"):
-        embed=discord.Embed(description="롤체지지 plati0921 바로가기\nhttps://lolchess.gg/profile/kr/plati0921", color=0x00ff56)
-        embed.set_author(name="<<plati0921>>")
+    if content.startswith("!롤체 응애나아기롤리니"):
+        embed=discord.Embed(description="롤체지지 응애나아기롤리니 바로가기\nhttps://lolchess.gg/profile/kr/응애나아기롤리니", color=0x00ff56)
+        embed.set_author(name="<<응애나아기롤리니>>")
         await message.channel.send(embed=embed)
 
     if content.startswith("!옵지 챔원삐뽀"):
