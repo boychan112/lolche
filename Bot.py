@@ -134,7 +134,8 @@ async def on_message(message):
         embed.set_author(name="<<Burble Dust>>")
         await message.channel.send(embed=embed)
         
-    
+    if content.startswith("!인백이의 드립은"):
+        await message.channel.send("개씹노잼입니다")    
         
 access_token = os.environ["BOT_TOKKEN"]
 client.run(access_token)
