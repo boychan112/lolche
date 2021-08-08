@@ -52,8 +52,8 @@ async def on_message(message):
         await message.channel.send(embed=embed)
     
     if content.startswith("!재생술사"):
-        embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=042b86f0e9ea11ebb5e589e115fb8433", color=0x00ff56)
-        embed.set_author(name="<<4재생술사 2기원자 2빛도자 2악동 3감시자 3>>",url="https://lolchess.gg/builder/set5.5?deck=042b86f0e9ea11ebb5e589e115fb8433")
+        embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=527fcb90ef8911eba0c385872c72b794", color=0x00ff56)
+        embed.set_author(name="<<4재생술사 2기원자 2빛도자 2악동 3감시자 3>>",url="https://lolchess.gg/builder/set5.5?deck=527fcb90ef8911eba0c385872c72b794")
         await message.channel.send(embed=embed)
         
     if content.startswith("!망각"):
