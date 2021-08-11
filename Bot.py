@@ -57,8 +57,8 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         
     if content.startswith("!망각"):
-        embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=e0c47b60eac711eb9bee2b407e0ad822", color=0x00ff56)
-        embed.set_author(name="<<6망각 2기병대 2철갑 2>>",url="https://lolchess.gg/builder/set5.5?deck=042b86f0e9ea11ebb5e589e115fb8433")
+        embed=discord.Embed(description="https://lolchess.gg/builder/set5.5?deck=83fa7470fa5811ebb02167a6298483f0", color=0x00ff56)
+        embed.set_author(name="<<6망각 2기병대 2철갑 2>>",url="https://lolchess.gg/builder/set5.5?deck=83fa7470fa5811ebb02167a6298483f0")
         await message.channel.send(embed=embed)
         
     if(message.content == "!시간"):
